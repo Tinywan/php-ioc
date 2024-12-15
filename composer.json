@@ -1,0 +1,16 @@
+{
+    "name": "tinywan/ioc",
+    "autoload": {
+        "psr-4": {
+            "tinywan\\ioc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tinywan"
+        }
+    ],
+    "require": {
+        "psr/container": "^2.0"
+    }
+}

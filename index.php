@@ -1,10 +1,3 @@
-# PHP-IOC Container
-## 安装
-```php
-composer require tinywan/ioc
-```
-## 使用
-```php
 <?php
 /**
  * @desc index.php 描述信息
@@ -121,4 +114,3 @@ if ($app2->arg1 !== 'value1') {
 if ($app2->arg2 !== 'value2') {
     throw new Exception();
 }
-```
